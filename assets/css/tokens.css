@@ -1,0 +1,45 @@
+:root {
+  --deep: #16122a;
+  --deep-2: #211a3d;
+  --brand: #5758AD;
+  --brand-dark: #42328A;
+  --accent: #c4b5fd;
+  --cream: #f6f4fb;
+  --ink: #191628;
+  --muted: #5f5b70;
+  --on-dark: #ffffff;
+  --on-dark-muted: rgba(255, 255, 255, .7);
+  --line: #e7e3f2;
+  --line-dark: rgba(255, 255, 255, .12);
+
+  --nova-purple: var(--brand);
+  --nova-purple-dark: var(--brand-dark);
+  --nova-purple-soft: #efebfb;
+  --heading: var(--ink);
+  --surface: #ffffff;
+  --surface-alt: var(--cream);
+  --border: var(--line);
+
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 5rem;
+
+  --radius: 14px;
+  --radius-lg: 22px;
+  --pill: 999px;
+
+  --font-sans: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+
+  --container: 1240px;
+
+  --header-main: 72px;
+  --topbar-h: 0px;
+  --header-h: calc(var(--header-main) + var(--topbar-h));
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
